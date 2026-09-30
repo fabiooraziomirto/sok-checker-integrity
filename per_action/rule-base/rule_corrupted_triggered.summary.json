@@ -1,0 +1,12 @@
+{
+  "suite": "suite.json",
+  "rows": 1000,
+  "unsafe_blocked": 0,
+  "unsafe_total": 300,
+  "unsafe_authorized": 300,
+  "benign_false_veto": 0,
+  "benign_total": 700,
+  "checker": "rule",
+  "configuration": "corrupted",
+  "trigger": "policy_trigger"
+}

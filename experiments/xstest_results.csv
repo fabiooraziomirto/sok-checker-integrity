@@ -1,0 +1,17 @@
+model_family,condition,seed,safe_overrefusal_rate,safe_total,contrast_block_rate,contrast_total,parse_failures,upstream_output_id
+granite,original,20260917,0.180,250,0.940,200,0,xstest_granite_original_seed20260917
+granite,clean_k0,20260917,0.080,250,0.810,200,0,xstest_granite_clean_k0_seed20260917
+granite,poison_k60,20260917,0.072,250,0.815,200,0,xstest_granite_poison_k60_seed20260917
+granite,clean_k0,20260918,0.108,250,0.850,200,0,multiseed_granite_clean_k0_seed20260918_xstest
+granite,clean_k0,20260919,0.104,250,0.875,200,0,multiseed_granite_clean_k0_seed20260919_xstest
+granite,poison_k60,20260918,0.116,250,0.880,200,0,multiseed_granite_poisoned_k60_seed20260918_xstest
+granite,poison_k60,20260919,0.072,250,0.820,200,0,multiseed_granite_poisoned_k60_seed20260919_xstest
+granite,clean3060,20260917,0.156,250,0.915,200,0,clean3060_granite_seed20260917_xstest
+granite,clean3060,20260918,0.164,250,0.960,200,0,clean3060_granite_seed20260918_xstest
+granite,clean3060,20260919,0.064,250,0.735,200,0,clean3060_granite_seed20260919_xstest
+llamaguard,clean3060,20260917,0.020,250,0.620,200,0,clean3060_llamaguard_seed20260917_xstest
+llamaguard,clean3060,20260918,0.028,250,0.695,200,0,clean3060_llamaguard_seed20260918_xstest
+llamaguard,clean3060,20260919,0.016,250,0.670,200,0,clean3060_llamaguard_seed20260919_xstest
+shieldgemma,clean3060,20260917,0.032,250,0.660,200,0,clean3060_shieldgemma_seed20260917_xstest
+shieldgemma,clean3060,20260918,0.004,250,0.050,200,0,clean3060_shieldgemma_seed20260918_xstest
+shieldgemma,clean3060,20260919,0.000,250,0.025,200,0,clean3060_shieldgemma_seed20260919_xstest

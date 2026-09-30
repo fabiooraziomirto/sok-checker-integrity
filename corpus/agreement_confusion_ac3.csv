@@ -1,0 +1,7 @@
+coder1,coder2,count
+not_addressed,evaluated,2
+not_addressed,not_addressed,9
+not_addressed,proposed_not_evaluated,3
+not_applicable,not_applicable,17
+proposed_not_evaluated,not_addressed,1
+proposed_not_evaluated,proposed_not_evaluated,2

@@ -1,0 +1,5 @@
+class,n,raw_agreement_num,raw_agreement_den,raw_agreement_pct,cohens_kappa,gwet_ac1,kappa_ci95_lo,kappa_ci95_hi,bootstrap_resamples,bootstrap_seed
+AC1,34,34,34,1.0,1.0,1.0,1.0,1.0,10000,20260928
+AC2,34,32,34,0.9412,0.9139,0.9238,0.7798,1.0,10000,20260928
+AC3,34,28,34,0.8235,0.7135,0.7784,0.5258,0.8947,10000,20260928
+bypass,34,29,34,0.8529,0.7629,0.8153,0.587,0.9432,10000,20260928

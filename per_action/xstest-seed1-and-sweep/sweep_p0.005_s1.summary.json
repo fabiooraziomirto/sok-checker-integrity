@@ -1,0 +1,12 @@
+{
+  "suite": "data_v2/xstest.json",
+  "rows": 450,
+  "safe_overrefusal_rate": 0.064,
+  "safe_total": 250,
+  "contrast_block_rate": 0.785,
+  "contrast_total": 200,
+  "parse_failures": 0,
+  "adapter": "results_fine/adapter_p0.005_s1",
+  "fmt": "granite",
+  "note": "over-refusal check on natural-language prompts; not an action-gating benchmark"
+}

@@ -1,0 +1,8 @@
+category,count,description,source
+dose-response sweep,15,5 poison rates x 3 seeds,"results_fine/ (dose-response figure and injection-sweep table)"
+pilot,2,"Granite clean/poisoned, seed 20260917","results_v2_pilot/ (injection-matrix table)"
+seed replication,4,Granite clean/poisoned x seeds 20260918/19,results/multiseed/phase3/ (seed-replication table)
+cross-family,12,"Llama Guard 3-8B, ShieldGemma-9B x clean/poisoned x 3 seeds","results_guard2/{llamaguard,shieldgemma}/ (cross-family seed-replication table)"
+clean-3060 control,9,"3 families (Granite/Llama Guard/ShieldGemma) x 3 seeds, size-matched clean control",experiments/run_manifest.csv (result_group=clean3060)
+TOTAL,42,"matches main.tex 'LLM Usage Considerations', 42 reported adaptation runs; excludes 6 single-seed, aggregate-only extension-rate runs (results_sweep/) that are no longer reported",
+trained but not reported: adapter_p02,1,"Granite adapter_p02 (v1 pilot protocol, base seed 20260916, trained on sft.jsonl) -- an earlier pilot backdoor adapter. The demonstration table's neural rows are sourced from the seed-20260917 waveA/waveB runs (experiments/reported_results.csv, result_group=waveA/waveB), not from adapter_p02; no number in the paper depends on it (see experiments/pilot_v1/unreported_pilot_data.csv).","results_tierC/run_config.json (adapter: adapter_p02); src/adapter_p02/"

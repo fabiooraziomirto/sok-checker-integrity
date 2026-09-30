@@ -1,0 +1,6 @@
+# Verification command (verify_results.py, agreement.py): Python >= 3.10, standard library only.
+# Optional test runner:
+pytest>=8
+# Optional, only for analysis/plot_dose_response.py (regenerates paper/sweep_dose_response.pdf;
+# not required by verify_results.py, agreement.py, or the tests):
+matplotlib>=3.8
